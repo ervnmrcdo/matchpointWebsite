@@ -1,0 +1,18 @@
+.rectangle-one{
+    background-color: cyan;
+}
+.name-text{
+    font-size: 50px;
+}
+
+.picture-container{
+    width: auto;
+}
+
+.text-container{
+    width: auto;
+}
+
+.picture-container, .text-container{
+    display: inline-block;
+}
