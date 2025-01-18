@@ -10,7 +10,8 @@
     z-index: -1;
 }
 
-.background-container{
+.rectangle-container{
+    display: inline-block;
 }
 
 .rectangle-one{
@@ -19,13 +20,13 @@
 
 .rectangle-two{
     height: 25%;
-    overflow: right;
+    /* float: right; */
 }
 
 .rectangle-three{
 }
 
-.rectangle-one, .rectangle-two{
+.rectangle-one, .rectangle-two, .rectangle-three{
     display: flex;
 }
 
@@ -44,4 +45,14 @@
 
 .picture-container, .text-container{
     display: inline-block;
+}
+
+.name-text{
+    color: white;
+}
+
+.picture-one{
+    height: 400px;
+    margin: 20px;
+    width: 300px;
 }
