@@ -1,12 +1,41 @@
-.rectangle-one{
-    background-color: cyan;
+.background-video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
+
+.background-container{
+}
+
+.rectangle-one{
+    height: 25%;
+}
+
+.rectangle-two{
+    height: 25%;
+    overflow: right;
+}
+
+.rectangle-three{
+}
+
+.rectangle-one, .rectangle-two{
+    display: flex;
+}
+
 .name-text{
     font-size: 50px;
 }
 
 .picture-container{
     width: auto;
+    size: 100px;
 }
 
 .text-container{
