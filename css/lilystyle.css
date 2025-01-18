@@ -1,0 +1,46 @@
+body {
+    background-image: url("images/Loading_Screen_Breeze.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    color: white; 
+}
+#navbar {
+    display: flex; 
+    flex-direction: row; 
+}
+
+.navelement { 
+    text-align: center; 
+}
+
+#page{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    margin: auto;
+    width: 75%;
+    background-color: darkslategrey;
+}
+
+.section {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.section img{
+    max-width: 50%;
+    height: auto; 
+    flex: 1 1 auto;
+}
+
+h1 { 
+    text-align: center; 
+}
+
+p {
+    margin: 5%;
+    padding: 5%;
+}
